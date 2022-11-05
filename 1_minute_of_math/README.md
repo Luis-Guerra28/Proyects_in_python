@@ -1,4 +1,6 @@
-# Requerimientos
+# 1_minute_of_math
+
+## Requerimientos
 1. Correr el codigo en consola.
 2. Funcionará por 1 minuto.
 3. Mostrará 2 números y una operación aritmetica (suma, resta, multiplicación y división). Si la operación es división el divisor no puede ser 0.
