@@ -24,7 +24,7 @@ def arithmetic_arranger(problems, showResult=False):
             lineSize = max(xSize, ySize+2)
 
 
-        # Parte encargada del calculo del resultado ---------------------
+        # Parte encargada del calculo del resultado -----------------
         try:
             x = int(x)
             y = int(y)
@@ -38,7 +38,7 @@ def arithmetic_arranger(problems, showResult=False):
         else:
             print("Error: Operator must be '+' or '-'.")
             return
-        #-------------------------------------------------------------
+        #------------------------------------------------------------
         # 
         firstLine += f'{str(x):>{lineSize}}    '
         secondLine += f'{op}{str(y):>{lineSize-1}}    '
